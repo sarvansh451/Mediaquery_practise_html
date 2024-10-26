@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .card{
+        padding:23px 12px ;
+        border: 2px solid red;
+        margin: 23px 12px;
+        box-shadow: 7px 5px 10px 34px green;/*  first we write x and y offset ..here 10 px means blur radius and 34px means spread radius..agar positive dala toh box shadow upar if x,y offset negative then boxshadow upar */
+       
+        box-shadow: inset 3px 5px green,4px 6px red;/* we cann give multiple shadows*/
+    }
+    .card h2{
+        text-shadow:3px 4px 2px red;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="car-1"> 
+            <h2> card1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corporis recusandae esse assumenda doloribus ullam nisi harum voluptatibus blanditiis, eaque modi obcaecati architecto possimus iure, ducimus quidem eius eum tenetur veniam doloremque.</p>
+        </div>
+        <div class="card" id="car-2">
+            <h2> card2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corporis recusandae esse assumenda doloribus ullam nisi harum voluptatibus blanditiis, eaque modi obcaecati architecto possimus iure, ducimus quidem eius eum tenetur veniam doloremque.</p>
+        </div>
+        <div class="card" id="car-3">
+            <h2> card3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corporis recusandae esse assumenda doloribus ullam nisi harum voluptatibus blanditiis, eaque modi obcaecati architecto possimus iure, ducimus quidem eius eum tenetur veniam doloremque.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
