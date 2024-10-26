@@ -1,0 +1,45 @@
+/* css reser*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*CSS Variables*/
+:root{
+    --navbar-height: 59px;
+}
+/* Navigation bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+    /*justify-content: centre; use this to get navbar into the centre */
+    
+ 
+}
+/* logo and image*/
+#logo{
+    margin: 10px 34px;
+   
+
+}
+#logo img{
+
+    margin: 59px;
+    height: 3px 5px;
+
+}
+/*list and styling*/
+ul{
+    display: flex;
+}
+#navbar ul li{
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 3px 22px;
+    text-decoration: none;
+}
+#navbar ul li:hover{
+    color: pink;
+}
+
+
